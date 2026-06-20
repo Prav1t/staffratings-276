@@ -1,7 +1,7 @@
 Staff Ratings Application (Assignment 2)
 
 
-Live Demo: https://YOUR-NEW-SERVICE-NAME.onrender.com  (update this with your new Render URL once deployed)
+Live Demo: https://staffratings-276.onrender.com
 
 
 Features
@@ -55,6 +55,8 @@ PostgreSQL
 
 Maven 
 
+Steps to make it:
+
 1. Create database
 CREATE DATABASE staffratings;
 
@@ -63,41 +65,27 @@ CREATE DATABASE staffratings;
 Set these environment variables before running (this keeps application.properties clean so the test suite can still use the in-memory H2 database):
 
 SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/staffratings
-SPRING_DATASOURCE_USERNAME=YOUR_USERNAME
-SPRING_DATASOURCE_PASSWORD=YOUR_PASSWORD
+SPRING_DATASOURCE_USERNAME=...
+SPRING_DATASOURCE_PASSWORD=...
 
-3. Run the app
+3. To run the app
 ./mvnw spring-boot:run
 
-4. Open in browser
+4. To open in browser
 http://localhost:8080
 
-How to Deploy (Render)
+Deployment (Render)
 
 This app uses Docker + Render PostgreSQL.
 
 Create Render PostgreSQL
-
-Render Dashboard → New → PostgreSQL
-Copy:
-
-Internal DB URL
-
-Username
-
-Password
-
-Set environment variables (Render Web Service)
-SPRING_DATASOURCE_URL=jdbc:postgresql://HOST:PORT/DATABASE
-SPRING_DATASOURCE_USERNAME=USERNAME
-SPRING_DATASOURCE_PASSWORD=PASSWORD
 
 4. Deploy
 
 Render → Manual Deploy → Deploy latest commit
 
 5. Open deployed app
-https://your-service-name.onrender.com
+https://staffratings-276.onrender.com
 
 
 AI Declaration
