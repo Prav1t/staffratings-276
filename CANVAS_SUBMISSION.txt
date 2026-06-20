@@ -1,15 +1,16 @@
 Assignment 2 - Staff Ratings 
-Name: Pravit
+Name: Pravit Hundal
+id: 301637873
 ============================================
 
 1) Render URL:
-   https://YOUR-NEW-SERVICE-NAME.onrender.com
+   https://staffratings-276.onrender.com
 
 2) GitHub Repository URL:
-   https://github.com/Prav1t/YOUR-NEW-REPO-NAME
+   https://github.com/Prav1t/staffratings-276
 
 3) Known Issues / Future Work:
-   - No average-rating-per-instructor view yet (out of scope for iteration 1).
+   - No average rating per instructor option
    - The index "overall score" uses integer division; a decimal average could be
      shown in a future update.
-   - Authentication is not implemented; anyone can add/edit/delete ratings.
+   - Authentication is not implemented; anyone can add, edit or delete ratings.
