@@ -1,0 +1,22 @@
+Assignment 2 - Staff Ratings (Resubmission)
+Name: Pravit
+============================================
+
+1) Render URL:
+   https://YOUR-NEW-SERVICE-NAME.onrender.com
+
+2) GitHub Repository URL:
+   https://github.com/Prav1t/YOUR-NEW-REPO-NAME
+
+3) Known Issues / Future Work:
+   - No average-rating-per-instructor view yet (out of scope for iteration 1).
+   - The index "overall score" uses integer division; a decimal average could be
+     shown in a future update.
+   - Authentication is not implemented; anyone can add/edit/delete ratings.
+
+Fixes made in this resubmission:
+   - Editing an entry now updates the existing row correctly (added the missing
+     id setter so the hidden id field binds on POST). Previously this caused a
+     500 error and changes were not saved.
+   - Submitting a duplicate email is now rejected with a clear field-level error
+     message instead of crashing the server with a 500 error.
